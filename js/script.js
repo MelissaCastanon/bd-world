@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Función para obtener todos los datos de la API
     const obtenerDatos = async () => {
         try {
-            const response = await fetch(API_URL); // Hacer petición a la API
+            const response = await fetch("http://54.224.83.57/app-intro-connection/Getrecorsd.PHP"); // Hacer petición a la API
             const data = await response.json(); // Convertir respuesta a JSON
 
             // Limpiar el tbody
